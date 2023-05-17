@@ -1,13 +1,99 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+#users{
+
+  position: absolute;
+  top: 180px;
+  right: 10px;
+  overflow:scroll;
+  overflow-x:hidden;
+  height: 95%;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#users_body{
+
+  position: absolute;
+  top: 15%;
+  right: 0px;
+  width: 180px;
+  height: 100%;
+  overflow: auto;
+  border-style: solid;
+  border-radius: 30px;
+  border-color: black;
+
+  background-color:aliceblue;
+
+
+
+}
+
+
+
+
+#Twitre{
+     
+  position: absolute;
+  top: 0%;
+  left: 35%;
+  text-align: center;        
+   
+  font-size: 90px;
+     
+  font-family: MV Boli;
+       
+  }
+
+body{
+
+padding-left: 10px;
+padding-right: 10px;
+background-color: rgba(197, 212, 255, 1);
+background-image: linear-gradient(98deg, rgba(197, 212, 255, 1) 0%, rgba(13, 65, 241, 1) 100%);
+
+}  
+
+#main_body{
+
+  position: absolute;
+  top: 15%;
+  width: 88%;
+  height: 100%;
+  border-style: solid;
+  border-radius: 30px;
+  border-color: black;
+
+  background-color:mintcream
+
+
+
+}
+
+#posts{
+
+
+  position: absolute;
+  top: 210px;
+  right: 400px;
+  max-width: 400px;
+  overflow:scroll;
+  overflow-x:hidden;
+  height: 85%;
+
+}
+
+#posts_body{
+
+  position: absolute;
+  top: 20%;
+  right: 260px;
+  width: 700px;
+  height: 90%;
+  overflow: auto;
+  border-style: solid;
+  border-radius: 30px;
+  border-color: black;
+  background-color:aliceblue;
+
+
+
 }

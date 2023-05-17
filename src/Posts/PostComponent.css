@@ -1,0 +1,58 @@
+#postTable_postTitle{
+
+  background-color: rgb(223, 255, 175);
+ 
+  text-align: center;
+
+  max-width: 200px;
+
+  word-wrap: break-word;
+
+  border-style: solid;
+  border-radius: 10px;
+  border-color: black;
+  
+
+
+}
+
+
+#postTable_postContent{
+
+    
+    
+    text-align: left;
+    max-width: 300px;
+    word-wrap: break-word;
+    padding: 10px;
+
+    border-style: solid;
+    border-radius: 10px;
+    border-color: black;
+    
+     
+}
+
+#postTable_postLike{
+
+
+    background-color: rgb(146, 165, 250);
+    max-width: 70px;
+    text-align: center;
+
+    border-style: solid;
+    border-radius: 10px;
+    border-color: black;
+
+   
+}
+
+#postTable_separator{
+
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+
+}
+
